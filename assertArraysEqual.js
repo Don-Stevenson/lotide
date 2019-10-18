@@ -13,10 +13,10 @@ const eqArrays = function (A,B){
 
 const assertArraysEqual = function(A, B) {
   if (eqArrays(A,B)) {
-    console.log(`😊 😊 😊 Assertion Passed: [${A}] === [${B}]`);
+    console.log(` 📗  📗  📗  Assertion Passed: [${A}] === [${B}]`);
   } else {
-    console.log(`😢 😢 😢 Assertion Failed: [${A}] !== [${B}]`);
+    console.log(` 😡  😡  😡  Assertion Failed: [${A}] !== [${B}]`);
   }
 }
-assertArraysEqual([1,2,3],['A','B','C']);
+// assertArraysEqual([1,2,3],['A','B','C']);
 
